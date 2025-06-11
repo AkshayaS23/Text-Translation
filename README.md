@@ -33,3 +33,27 @@ Use the following commands to install the required libraries:
 
 ```bash
 pip install gTTS googletrans==4.0.0-rc1
+
+🧠 How It Works
+User enters a text input.
+
+The tool asks for the desired language to translate.
+
+It translates the input text into the selected language.
+
+The user selects a TTS language (optional, defaults to the translation language).
+
+It generates an audio file and plays it automatically.
+
+
+📝 Example
+
+Enter the text you want to convert to speech: Hello, how are you?
+Enter the language code to translate the text: ta
+Enter the language code for TTS (optional): ta
+Enter the filename (optional): output.mp3
+Output:
+🎧 Tamil translation: வணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?
+🔊 Audio will play automatically.
+
+
